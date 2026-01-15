@@ -6,6 +6,7 @@ import HistoryComponent from "./Hook/History";
 import Counter from "./Hook/History";
 import MyComponent from "./Hook/Ref";
 import M from "./Hook/Compare";
+import Timer from "./Hook/S";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Route path="/history" element = {<Counter/>}/>
                 <Route path="/ref" element = {<MyComponent/>}/>
                 <Route path="/compare" element = {<M />}/>
+                <Route path="timer" element = {<Timer/>}/>
             </Routes>
         </div>
     );
